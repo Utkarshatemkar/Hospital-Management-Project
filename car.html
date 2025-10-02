@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/capsules?f=classic&s=duotone">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-color: black;
+            overflow: hidden;
+            height: 120px;
+            /* position: sticky; */
+        }
+
+        .navbar .logo {
+            /* position: sticky; */
+            padding-top: 12px;
+            margin-left: 12px;
+        }
+
+        .navbar a {
+            /* position: sticky; */
+            margin-left: 2px;
+            /* margin-right: 2px; */
+            float: left;
+            color: rgb(253, 243, 243);
+            text-align: center;
+            padding: 40px 15px;
+            text-decoration: none;
+            font-size: 28px;
+            /* border-radius: 20px; */
+            /* display: block; */
+        }
+
+        .navbar :hover {
+            color: rgb(172, 207, 88);
+            /* background-color: white; */
+        }
+
+        .dropdown {
+            /* position: sticky; */
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            /* position: sticky; */
+            font-size: 28px;
+            border: none;
+            outline: none;
+            color: rgb(250, 246, 246);
+
+            padding: 40px 15px;
+            background-color: inherit;
+            /* font-family: inherit; */
+            margin: 0;
+        }
+
+        .dropdown:hover .dropbtn {
+            /* position: sticky; */
+            color: rgb(172, 207, 88);
+        }
+
+        .dropdown-content {
+            /* position: sticky; */
+            display: none;
+            position: absolute;
+            background-color: #6b7da5;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: rgb(228, 220, 220);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #6b7da5;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .mar {
+            background-color: rgb(133, 188, 224);
+            color: black;
+            width: "60%";
+            direction: "left";
+            height: "100px";
+            margin-top: 12px;
+        }
+
+        .mar marquee {
+            height: 40px;
+            font-size: 28px;
+            text-decoration: line-through;
+        }
+
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .main-content {
+            width: 75%;
+            padding: 20px;
+        }
+
+        .main-content img {
+            display: flex;
+        }
+
+        .pic {
+            text-align: center;
+            background-image: url(car.jpg);
+            color: white;
+            height: 200px;
+            background-size: cover;
+
+        }
+
+        .pic h1 {
+            padding-top: 80px;
+            text-shadow: #f4f4f4;
+            font-size: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+
+
+            <a href="#" class="logo"><img src="maxx.jpg" style="height: 100px; width: 150px;" alt=""></a>
+            <nav>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href="#">home</a>
+                <a href="about.html">about us</a>
+                <a href="gallery.html">Gallery</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Departnment
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Cardiology</a>
+                        <a href="#">Dermantology</a>
+                        <a href="#">ENT</a>
+                        <a href="#">General Medicine</a>
+                        <a href="#">General Surgery</a>
+                        <a href="#">Geriatric and Palliative Care</a>
+                        <a href="#">Gynaecology</a>
+                        <a href="#">nephrology</a>
+                        <a href="#">orthopedics</a>
+                        <a href="#">Neurosurgery</a>
+                        <a href="#">Paediatrics</a>
+                        <a href="#">Pulmonology</a>
+                        <a href="#">Radiology & imaging</a>
+                        <a href="#">urology</a>
+                    </div>
+                </div>
+                <!-- <a href="#licenses">Departnment</a> -->
+                <a href="our.html">Our Services</a>
+                <a href="doctor.html">Find a doctor</a>
+                <a href="contact.html"> Contact Us</a>
+                <a href="#privacy policy"> Privacy Policy</a>
+
+            </nav>
+        </div>
+    </div>
+    <div class="mar">
+        <marquee>
+            🏥 Stay Healthy! Schedule Your Regular Check-ups Today! 🌟
+        </marquee>
+    </div>
+    <div class="pic">
+        <h1>Cardiology</h1>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <!-- Sidebar content goes here -->
+            <h2>Departnment</h2>
+            <p>Cardiology </p>
+            <p>Dermantology</p>
+            <p>ENT</p>
+            <P>General Medicine</P>
+            <P>General Surgery</P>
+            <P>Geriatric and Palliative Care</P>
+            <P>Gynaecology</P>
+            <P>nephrology</P>
+            <P>orthopedics</P>
+            <P>Neurosurgery</P>
+            <P>Paediatrics</P>
+            <P>Pulmonology</P>
+            <P>Radiology & imaging</P>
+            <P>urology</P>
+        </aside>
+        <div class="main-content">
+            <!-- Main content goes here -->
+            <h1>Cardiology</h1>
+            <p>Our Cardiology team comprises leading experts in the field, each with a wealth of experience in
+                diagnosing and treating a wide range of cardiovascular conditions. With a combined expertise that
+                spans
+                decades, our cardiologists are well-equipped to handle the most complex cases, ensuring the best
+                possible outcomes for our patients.
+
+            </p>
+            <P>With a commitment to excellence in patient care, a dedication to ongoing research and education, and
+                a
+                track record of successful outcomes, Maxcare Hospital’s Cardiology Department is a trusted
+                destination
+                for cardiac care in Kerala.
+
+                Take the first step towards a healthier heart. Schedule your appointment with our Cardiology
+                Department
+                today.</P>
+            <div class="IMG">
+                <img src="https://maxcarehospital.com/wp-content/uploads/2023/12/Cardiology-300x150.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Modal Form Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.main {
+    background-color: black;
+    overflow: hidden;
+    height: 120px;
+    /* position: sticky; */
+}
+
+.navbar .logo {
+    /* position: sticky; */
+    padding-top: 12px;
+    margin-left: 12px;
+}
+
+.navbar a {
+    /* position: sticky; */
+    margin-left: 2px;
+    /* margin-right: 2px; */
+    float: left;
+    color: rgb(253, 243, 243);
+    text-align: center;
+    padding: 40px 15px;
+    text-decoration: none;
+    font-size: 28px;
+    /* border-radius: 20px; */
+    /* display: block; */
+}
+
+.navbar :hover {
+    color: rgb(172, 207, 88);
+    /* background-color: white; */
+}
+
+.dropdown {
+    /* position: sticky; */
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    /* position: sticky; */
+    font-size: 28px;
+    border: none;
+    outline: none;
+    color: rgb(250, 246, 246);
+
+    padding: 40px 15px;
+    background-color: inherit;
+    /* font-family: inherit; */
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    /* position: sticky; */
+    color: rgb(172, 207, 88);
+}
+
+.dropdown-content {
+    /* position: sticky; */
+    display: none;
+    position: absolute;
+    background-color: #6b7da5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(228, 220, 220);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #6b7da5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mar {
+    background-color: rgb(133, 188, 224);
+    color: black;
+    width: "60%";
+    direction: "left";
+    height: "100px";
+    margin-top: 12px;
+}
+
+.mar marquee {
+    height: 40px;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+
+.card {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 80%
+}
+
+.image {
+    flex-basis: 70%;
+    order: 2;
+}
+
+.text {
+    color: #161515;
+    padding-left: 20px;
+}
+
+.text h4 {
+    font-size: 50px;
+    color: rgb(72, 72, 146);
+    padding-bottom: 12px;
+    text-shadow: black;
+    margin-left: 100px;
+}
+
+.text p {
+    font-size: 25px;
+    color: black;
+
+}
+
+button {
+    background-color: #3f5f99;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    color: rgb(218, 216, 100);
+}
+
+.mid h4 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.mid h6 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.mid p {
+    font-size: 20px;
+    color: rgb(119, 112, 112);
+    text-align: center;
+}
+
+.imgg {
+    margin-left: 120px;
+}
+
+.set {
+    background-color: rgb(133, 188, 224);
+    height: 250px;
+}
+
+.set h4 {
+    padding-top: 12px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    /* background-color: rgb(194, 231, 231); */
+}
+
+.b4 {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+
+}
+
+
+.img-container {
+    text-align: center;
+    margin-right: 150px;
+    /* background-color: #fff; */
+
+}
+
+.img-container img {
+    height: 90px;
+    width: 90px;
+}
+
+.img-container p {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+    height: 10000%;
+}
+
+
+
+/* .box img {
+    width: 40%;
+    height: 40%;
+    margin-left: 20px;
+    padding-bottom: 0;
+} */
+.fut {
+
+    background-color: black;
+}
+
+.fut p {
+    color: white;
+    font-size: 20px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.in input {
+    width: 20%;
+    height: 20%;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 12px;
+
+}
+
+.in button {
+    width: 10%;
+    height: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+
+    /* padding-bottom: 3px; */
+    font-size: 20px;
+    margin-left: 750px;
+
+}
+
+.p h3 {
+    padding-top: 12px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.p p {
+    color: wheat;
+    font-size: 20px;
+}
+
+.fuut {
+    color: #fff;
+}
+
+.fuut {
+    display: flex;
+    margin-left: 40px;
+    /* padding-left: 20px; */
+}
+
+.fuut .f3 {
+    margin-left: 80px;
+}
+
+.fuut .f3 h5 {
+    font-size: 15px;
+    text-decoration: underline;
+    padding-bottom: 12px;
+}
+
+.fuut .f3 ul {
+    font-size: 15px;
+    color: bisque;
+    list-style-type: none;
+}
+
+.box .b {
+
+    display: flex;
+    margin-left: 400px;
+    margin-right: 300px;
+    border: solid 2px white;
+    margin-top: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* padding-right: 10px; */
+    border-radius: 18px;
+}
+
+.f1 {
+    margin-left: 30px;
+}
+
+.b .f1 p {
+    color: white;
+}
+
+.b .f1 p a {
+    color: rgb(81, 146, 243);
+}
+
+.boxx {
+    background-color: black;
+}
+
+.boxx .b2 {
+    display: flex;
+    background-color: black;
+    margin-top: 40px;
+
+    text-align: center;
+    border: solid 2px white;
+    box-sizing: border-box;
+    border-radius: 18px;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+
+.boxx .b2 .f2 {
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.b2 .f2 p {
+    font-size: 25px;
+
+}
+
+.b2 .f2 p span {
+    color: #3f5f99;
+    font-weight: 30px;
+}
